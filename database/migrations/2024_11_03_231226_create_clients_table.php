@@ -17,7 +17,6 @@ return new class extends Migration
             $table->string('first_name');
             $table->string('second_name');
             $table->string('three_name');
-            $table->integer('balance');
         });
     }
 

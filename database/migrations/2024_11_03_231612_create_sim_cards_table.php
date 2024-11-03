@@ -18,6 +18,7 @@ return new class extends Migration
             $table->foreignId('client_id')->constrained();
             $table->foreignId('plan_id')->constrained();
             $table->boolean('visible');
+            $table->integer('balance');
         });
     }
 
